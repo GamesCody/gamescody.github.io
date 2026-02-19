@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cody's Portfolio</title>
+    <link rel="icon" href="graphics/favicon-32x32.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="one" id="landing">
+        <div class="page">
+            <div id="hello">
+                <p>
+                    Hi<span class="blinking-underscore">_</span><br>
+                    I'm Cody,<br> aspiring developer.
+                </p>
+
+                <div id="scene">
+                    <div id="backdoor"></div>
+
+                    <div id="cody-bubble-wrapper">
+                        <img id="cody" src="graphics/Author.png" alt="authorOfSite">
+                        <div id="bubble-container">
+                            <svg id="bubble" width="auto" height="100" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10,10 
+                                    h380 
+                                    a10,10 0 0 1 10,10 
+                                    v40 
+                                    a10,10 0 0 1 -10,10 
+                                    h-180 
+                                    l-20,20 
+                                    v-20 
+                                    h-180 
+                                    a10,10 0 0 1 -10,-10 
+                                    v-40 
+                                    a10,10 0 0 1 10,-10 
+                                    z"
+                                    fill="white" stroke="black" stroke-width="2" />
+                                <text
+                                    x="200"
+                                    y="43"
+                                    fill="black"
+                                    font-size="20"
+                                    font-family="Nunito"
+                                    text-anchor="middle"
+                                    dominant-baseline="middle">
+                                    Scroll down to see what I'm working on!
+                                </text>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <div id="door">
+                        <div></div>
+                        <div id="knob"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="two" id="projects">
+        <div class="page">
+            <div class="head-title">
+            <p>Projects</p>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">PMP-Python Music Player</h4>
+                        <div class="window-controls">
+                            <button class="control-btn minimize" id="progress1"></button>
+                            <button class="control-btn maximize"></button>
+                            <button class="control-btn close"></button>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>PMP-Python Music Player</h3>
+                        <p>Desktop music player - work in progress<br>
+                            Planned features include:
+                        </p>
+                        <ul>
+                            <li>downloading music through links (eg. Youtube)</li>
+                            <li>building playlists</li>
+                            <li>sound mixer to optimize experiences</li>
+                            <li>GUI</li>
+                            <li>built in lyrics</li>
+                        </ul>
+                        <p><b>Technologies:</b></p>
+                        <span><img src="https://cdn.simpleicons.org/python/3776AB" alt="Python logo" width="40" />
+                            <img src="https://cdn.simpleicons.org/qt/41CD52" alt="Qt logo" width="40" />
+                        <img src="https://cdn.simpleicons.org/postgresql/4169E1" alt="postgresql logo" width="40" /></span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">DishPatch</h4>
+                        <div class="window-controls">
+                            <button class="control-btn minimize"></button>
+                            <button class="control-btn maximize" id="progress2"></button>
+                            <button class="control-btn close"></button>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>DishPatch - restaurant <a href="https://github.com/GamesCody/DishPatch.git" id="gitLink" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a></h3>
+                        <p>Website project for university course. Developed with 2 classmates.
+                             Application made to help restaurators and clients with managing table reservations.<br>
+                            Implemented features include:
+                        </p>
+                        <ul>
+                            <li>making reservation - customer side</li>
+                            <li>creating and removing reservation - restaurant side</li>
+                            <li>searchbar with map to search for restaurants and food</li>
+                            <li>registration and login panel with email confirmation</li>
+                            <li>contact form integrated with email</li>
+                            <li>customer side access to history of orders and reservations</li>
+                        </ul>
+                        <p><b>Technologies:</b></p>
+                        <span>
+                            <img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="JavaScript logo" width="40" />
+                            <img src="https://cdn.simpleicons.org/css/663399" alt="CSS3 logo" width="40" />
+                            <img src="https://cdn.simpleicons.org/mysql/4479A1" alt="MySQL logo" width="40" />
+                            <img src="https://cdn.simpleicons.org/html5/E34F26" alt="HTML5 logo" width="40" />
+                            <img src="https://cdn.simpleicons.org/php/777BB4" alt="PHP logo" width="40" />
+                            <img src="https://cdn.simpleicons.org/xampp/FB7A24" alt="XAMPP logo" width="40" />
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="three" id="contact-info">
+        <div class="page">
+            <div class="head-title">
+            <p>Contact</p>
+
+            </div>
+            <div class="orbit-scene">
+    <div class="orbit" style="--i: 0">
+        <div class="planet">
+            <a href="https://github.com/GamesCody" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </div>
+    <div class="orbit" style="--i: 1">
+        <div class="planet">
+            <a href="https://www.linkedin.com/in/codyurl" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+    <div class="orbit" style="--i: 2">
+        <div class="planet">
+            <a href="mailto:codyurlik@hotmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </div>
+</div>
+
+            <footer>
+            <p>&copy; Cody Urlik 2025</p>
+            </footer>
+        </div>
+
+
+    </section>
+
+    <div id="navbar">
+        <button class="btn" id="home">Home</button>
+        <button class="btn" id="project">Projects</button>
+        <button class="btn" id="contact">Contact</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
